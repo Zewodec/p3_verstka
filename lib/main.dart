@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Verstka',
       theme: ThemeData(
-        primarySwatch: Colors.amber,
+        primarySwatch: Colors.red,
       ),
       home: const MyHomePage(title: 'Verstka project'),
     );
@@ -74,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ]),
           const SizedBox(
-            height: 5,
+            height: 10,
           ),
           Column(
             children: [
@@ -83,16 +83,24 @@ class _MyHomePageState extends State<MyHomePage> {
                   SizedBox(
                     width: 15,
                   ),
-                  Text("@Zewodec"),
+                  Text(
+                    "@Zewodec",
+                    style: TextStyle(
+                      fontSize: 16,
+                    ),
+                  ),
                   Spacer(),
-                  Icon(Icons.menu),
+                  Icon(
+                    Icons.menu,
+                    size: 25,
+                  ),
                   SizedBox(
                     width: 10,
                   ),
                 ],
               ),
               const SizedBox(
-                height: 3,
+                height: 5,
               ),
               Image.asset(
                 "assets/images/post_1.jpg",
@@ -105,17 +113,29 @@ class _MyHomePageState extends State<MyHomePage> {
                   SizedBox(
                     width: 10,
                   ),
-                  Icon(Icons.favorite),
-                  SizedBox(
-                    width: 5,
+                  Icon(
+                    Icons.favorite,
+                    size: 35,
                   ),
-                  Icon(Icons.comment),
                   SizedBox(
-                    width: 5,
+                    width: 10,
                   ),
-                  Icon(Icons.send),
+                  Icon(
+                    Icons.comment,
+                    size: 35,
+                  ),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  Icon(
+                    Icons.send,
+                    size: 35,
+                  ),
                   Spacer(),
-                  Icon(Icons.bookmark),
+                  Icon(
+                    Icons.bookmark,
+                    size: 35,
+                  ),
                   SizedBox(
                     width: 10,
                   ),
