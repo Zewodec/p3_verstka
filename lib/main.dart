@@ -104,6 +104,8 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               Image.asset(
                 "assets/images/post_1.jpg",
+                height: 300,
+                fit: BoxFit.fitWidth,
               ),
               const SizedBox(
                 height: 3,
