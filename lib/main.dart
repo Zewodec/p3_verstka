@@ -47,8 +47,9 @@ class _MyHomePageState extends State<MyHomePage> {
               width: 70,
               height: 70,
               child: CircleAvatar(
-                backgroundColor: Colors.teal,
-                child: Icon(Icons.face_2),
+                radius: 70,
+                backgroundImage: AssetImage("assets/images/post_2.jpg"),
+                backgroundColor: Colors.pink,
               ),
             ),
             SizedBox(
